@@ -164,3 +164,115 @@ To https://github.com/rageone86/Practica_Git.git
  * [new branch]      master -> master
 ```
 
+# Comprobar que está subido a Github:
+
+![Alt text](repositorio5.png)
+
+# Modificar el repositorio para que sea público:
+
+
+
+
+# Configurar el repositorio para que publique el directorio raíz en Github Pages:
+
+
+
+
+# Mostrar los despliegues deployments:
+
+
+
+
+# Mostrar la página web:
+
+
+
+# Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web
+
+
+
+## PUBLICACIÓN EN GITHUB PAGES:
+
+
+# Uso de Git mediante la interfaz de VSCode: Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
+
+* En Visual pinchamos los 3 puntos y en Terminal le damos a Nuevo Terminal:
+
+![Alt text](repositorio7.png)
+
+
+* En la parte derecha de la terminal, pulsamos el botón desplegable ^ invertido y seleccionamos bash, donde nos aparecerá el git bash.
+
+![Alt text](repositorio8.png)
+
+
+* 
+
+
+# Creación de otro commit y subir el repositorio a Github en Git Bash:
+
+* Añadimos la carpeta capturas y le hacemos un commit y push para subirla a github:
+
+```
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git add .
+
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git add . capturas
+
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   capturas/image-1.png
+        new file:   capturas/image.png
+        new file:   capturas/repositorio1.png
+        new file:   capturas/repositorio2.png
+        new file:   capturas/repositorio3.png
+        new file:   capturas/repositorio4.png
+
+
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git commit -m "añado carpetar capturas"
+[master 67964e7] añado carpetar capturas
+ 7 files changed, 166 insertions(+)
+ create mode 100644 capturas/image-1.png
+ create mode 100644 capturas/image.png
+ create mode 100644 capturas/repositorio1.png
+ create mode 100644 capturas/repositorio2.png
+ create mode 100644 capturas/repositorio3.png
+ create mode 100644 capturas/repositorio4.png
+
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+andre@Andrew MINGW64 ~/downloads/tarea-git (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 252.82 KiB | 36.12 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rageone86/Practica_Git.git
+   a224a3c..67964e7  master -> master
+```
+
+# Comprobar que está subido a Github:
+
+* Comprobamos en Github que esté subida la carpeta, actualizando la página y sí está subida:
+
+![Alt text](repositorio5-1.png)
+
+
+
+# Ver el listado de commit desde Github:
+
+* Dentro del repositorio subido, pulsamos en el botón de la derecha Commits y vemos los commits subidos:
+
+![Alt text](repositorio6.png)
+
