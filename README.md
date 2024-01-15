@@ -127,7 +127,7 @@ $
 
 * Entramos en GitHub y en la parte superior derecha pinchamos en nuestra foto y abrimos Your Repositories  
 
-![Alt text](repositorio1.png)
+![Alt text](captura01.png)
 
 * Seleccionamos New en la parte derecha y se nos abre esta pantalla
 
