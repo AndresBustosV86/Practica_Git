@@ -173,12 +173,15 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Creamos un archivo index.html:
 
+* En Visual creamos un archivo index.html y escribimos algo para subirlo a Github. En Git Bash añadimos al carrito, hacemos commit y subimos a Github. Podemos ver que está subido correctamente.
 
+![](Capturas/captura13.png)
 
 # Configurar el repositorio para que publique el directorio raíz en Github Pages:
 
+* Pulsamos en el botón de Settings, y en la parte izquierda Pages. Dentro de la pagina en la Brach añadimos la opción de rama Master y root; y guardamos.  
 
-
+![](capturas/captura12.png)
 
 # Mostrar los despliegues deployments:
 
@@ -190,6 +193,15 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 
 # Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web
+
+
+
+
+## Uso de Git mediante la interfaz de VSCode:
+
+# Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
+
+
 
 
 
