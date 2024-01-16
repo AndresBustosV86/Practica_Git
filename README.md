@@ -127,17 +127,17 @@ $
 
 * Entramos en GitHub y en la parte superior derecha pinchamos en nuestra foto y abrimos Your Repositories  
 
-![Alt text](captura01.png)
+![](capturas/captura01.png)
 
 * Seleccionamos New en la parte derecha y se nos abre esta pantalla
 
-![Alt text](repositorio2.png)
+![](capturas/captura2.png)
 
-![Alt text](repositorio3.png)
+![](capturas/captura03.png)
 
 * Ponemos el nombre al repositorio y nos aparece esta pantalla donde copiamos la frase git remote:
 
-![Alt text](repositorio4.png)
+![](capturas/captura04.png)
 
 
 # Añadir el remoto al repositorio local (branch, remote):
@@ -166,7 +166,7 @@ To https://github.com/rageone86/Practica_Git.git
 
 # Comprobar que está subido a Github:
 
-![Alt text](repositorio5.png)
+![](capturas/captura05.png)
 
 # Modificar el repositorio para que sea público:
 
@@ -198,12 +198,12 @@ To https://github.com/rageone86/Practica_Git.git
 
 * En Visual pinchamos los 3 puntos y en Terminal le damos a Nuevo Terminal:
 
-![Alt text](repositorio7.png)
+![](capturas/captura07.png)
 
 
 * En la parte derecha de la terminal, pulsamos el botón desplegable ^ invertido y seleccionamos bash, donde nos aparecerá el git bash.
 
-![Alt text](repositorio8.png)
+![](capturas/captura08.png)
 
 
 * 
@@ -266,7 +266,7 @@ To https://github.com/rageone86/Practica_Git.git
 
 * Comprobamos en Github que esté subida la carpeta, actualizando la página y sí está subida:
 
-![Alt text](repositorio5-1.png)
+![](capturas/captura05.png)
 
 
 
@@ -274,5 +274,5 @@ To https://github.com/rageone86/Practica_Git.git
 
 * Dentro del repositorio subido, pulsamos en el botón de la derecha Commits y vemos los commits subidos:
 
-![Alt text](repositorio6.png)
+![](capturas/captura06.png)
 
