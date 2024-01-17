@@ -41,7 +41,7 @@ README.md
 
 # Creación de un commit inicial (add, status, commit, log):
 
-* Verifico el estado de los archivos con git status y observamos que no tengo ningún commit: 
+* Verifico el estado de los archivos con git ``status`` y observamos que no tengo ningún commit: 
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -57,7 +57,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-* Definimos los valores de configuración con git config:
+* Definimos los valores de configuración con git ``config``:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -67,7 +67,7 @@ andre@Andrew MINGW64 ~/downloads/tarea-git (master)
 $ git config --global user.email "andreubv_86@hotmail.com"
 ```
 
-* Añado el archivo README.md con git add y compruebo con git status que no tiene commit:
+* Añado el archivo README.md con git ``add`` y compruebo con git status que no tiene commit:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -84,7 +84,7 @@ Changes to be committed:
         new file:   README.md
 ```
 
-* Hacemos un commit y después comprobamos con git status:
+* Hacemos un ``commit`` y después comprobamos con git ``status``:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -101,7 +101,7 @@ nothing to commit, working tree clean
 ```
 
 
-* Con git log comprabamos el commit, autor y fecha:
+* Con git ``log`` comprabamos el commit, autor y fecha:
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
 $ git log
@@ -113,7 +113,7 @@ Date:   Mon Jan 15 18:58:35 2024 +0100
 
 ```
 
-* Compruebo en que rama estoy:
+* Compruebo en que ``rama`` estoy:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -126,7 +126,7 @@ $
 
 # Creación del repositorio en Github:
 
-* Entramos en GitHub y en la parte superior derecha pinchamos en nuestra foto y abrimos Your Repositories  
+* Entramos en GitHub y en la parte superior derecha pinchamos en nuestra foto y abrimos ``Your Repositories``  
 
 ![](capturas/captura01.png)
 
@@ -143,7 +143,7 @@ $
 
 # Añadir el remoto al repositorio local (branch, remote):
 
-* Pegamos el git remote en la terminal de git Bash:
+* Pegamos el git ``remote`` en la terminal de git Bash:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -152,7 +152,7 @@ $ git remote add origin https://github.com/rageone86/Practica_Git.git
 
 # Subir el repositorio a Github (push):
 
-* Con git Push subimos el repositorio a Github:
+* Con git ``Push`` subimos el repositorio a Github:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -180,13 +180,13 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Configurar el repositorio para que publique el directorio raíz en Github Pages:
 
-* Pulsamos en el botón de Settings, y en la parte izquierda Pages. Dentro de la pagina en la Brach añadimos la opción de rama Master y root; y guardamos.  
+* Pulsamos en el botón de Settings, y en la parte izquierda Pages. Dentro de la pagina en la Branch añadimos la opción de rama Master y root; y guardamos.  
 
 ![](capturas/captura12.png)
 
 # Mostrar los despliegues deployments:
 
-* Dentro del repositorio subido, en la parte derecha pinchamos en Deployments y obeservamos que hay dos subidos.
+* Dentro del repositorio subido, en la parte derecha pinchamos en ``Deployments`` y obeservamos que hay dos subidos.
 
 ![](capturas/captura14.png)
 
@@ -207,7 +207,7 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
 
-* En la parte izquierda del Visual Studio, en el icono de Control de Código Fuente nos aparecerá los últimos cambios realizados. En el comentario escribimos el nombre con que se llamará la modificación que queremos subir a Github, y pulsamos Confirmación. Actualizamos la página de Githun y nos debe de aparecer este último commit subido.
+* En la parte izquierda del Visual Studio, en el icono de ``Control de Código Fuente`` nos aparecerá los últimos cambios realizados. En el comentario escribimos el nombre con que se llamará la modificación que queremos subir a Github, y pulsamos Confirmación. Actualizamos la página de Github y nos debe de aparecer este último commit subido.
 
 ![](capturas/captura18.png)
 
