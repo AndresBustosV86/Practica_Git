@@ -5,6 +5,7 @@
 * Lenguaje de Marcas
 * IES Aguadulce
 * 1º DAW
+* https://github.com/rageone86/Practica_Git/blob/master/index.html
 
 
 
@@ -185,15 +186,20 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Mostrar los despliegues deployments:
 
+* Dentro del repositorio subido, en la parte derecha pinchamos en Deployments y obeservamos que hay dos subidos.
 
+![](capturas/captura14.png)
 
 
 # Mostrar la página web:
 
+* En el repositorio pinchamos en la página index.html y mostramos la página de prueba subida.
 
+![](capturas/captura15.png)
 
-# Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web
+# Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web:
 
+![](capturas/capturas16.png)
 
 
 
@@ -201,23 +207,10 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
 
+* 
 
 
 
-
-## PUBLICACIÓN EN GITHUB PAGES:
-
-
-# Uso de Git mediante la interfaz de VSCode: Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
-
-* En Visual pinchamos los 3 puntos y en Terminal le damos a Nuevo Terminal:
-
-![](capturas/captura07.png)
-
-
-* En la parte derecha de la terminal, pulsamos el botón desplegable ^ invertido y seleccionamos bash, donde nos aparecerá el git bash.
-
-![](capturas/captura08.png)
 
 
 
