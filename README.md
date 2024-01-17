@@ -207,7 +207,11 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Creación de otro commit, subir el repositorio a Github, comprobar que está subido a Github y ver el listado de commit desde Github:
 
-* 
+* En la parte izquierda del Visual Studio, en el icono de Control de Código Fuente nos aparecerá los últimos cambios realizados. En el comentario escribimos el nombre con que se llamará la modificación que queremos subir a Github, y pulsamos Confirmación. Actualizamos la página de Githun y nos debe de aparecer este último commit subido.
+
+![](capturas/captura18.png)
+
+![](capturas/captura17.png)
 
 
 
