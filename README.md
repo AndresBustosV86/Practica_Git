@@ -5,7 +5,7 @@
 * Lenguaje de Marcas
 * IES Aguadulce
 * 1º DAW
-* https://github.com/rageone86/Practica_Git/blob/master/index.html
+* https://rageone86.github.io/Practica_Git/
 
 
 
@@ -41,7 +41,7 @@ README.md
 
 # Creación de un commit inicial (add, status, commit, log):
 
-* Verifico el estado de los archivos con git ``status`` y observamos que no tengo ningún commit: 
+* Verifico el estado de los archivos con git `status` y observamos que no tengo ningún commit: 
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -57,7 +57,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-* Definimos los valores de configuración con git ``config``:
+* Definimos los valores de configuración con git `config`:
 
 ```
 andre@Andrew MINGW64 ~/downloads/tarea-git (master)
@@ -186,7 +186,7 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Mostrar los despliegues deployments:
 
-* Dentro del repositorio subido, en la parte derecha pinchamos en ``Deployments`` y obeservamos que hay dos subidos.
+* Dentro del repositorio subido, en la parte derecha pinchamos en ``Deployments`` y observamos que hay dos subidos.
 
 ![](capturas/captura14.png)
 
@@ -199,7 +199,9 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 
 # Añadir en el primer apartado, Identificación, el enlace a la publicación del sitio web:
 
-![](capturas/capturas16.png)
+* Dentro de nuestro repositorio, en la parte derecha pinchamos en ``Deployments`` y la página que nos aparece en la parte central en github-pages la copiamos y pegamos en el primer Apartado.
+
+![](capturas/captura16.png)
 
 
 
@@ -214,7 +216,11 @@ Dentro de nuestro perfil comprobamos que está subido el repositorio:
 ![](capturas/captura17.png)
 
 
+## Invitar al Profesor como Colaborador:
 
+* En la página de Github, pinchamos en Settings, Collaborators, y en Add people. Y aquí añadimos el usuario de nuestro profesor.
+
+![](capturas/captura19.png)
 
 
 
